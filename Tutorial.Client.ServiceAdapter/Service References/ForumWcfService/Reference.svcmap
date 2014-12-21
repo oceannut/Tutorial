@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="83257650-c1a8-448e-944d-7042efffefca" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61621/ForumWcfService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ForumWcfService.disco" MetadataType="Disco" ID="55164dae-95c7-4ff4-ba4e-28d7b8ae6a46" SourceId="1" SourceUrl="http://localhost:61621/ForumWcfService.svc?disco" />
+    <MetadataFile FileName="ForumWcfService.xsd" MetadataType="Schema" ID="7b8e6d85-c787-4abe-b5c1-109f38e9cde5" SourceId="1" SourceUrl="http://localhost:61621/ForumWcfService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ForumWcfService1.xsd" MetadataType="Schema" ID="f6915758-e506-44b5-be66-b6f5d9a15691" SourceId="1" SourceUrl="http://localhost:61621/ForumWcfService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ForumWcfServiceImpl.wsdl" MetadataType="Wsdl" ID="8b128ae5-fe97-49f6-b9e7-cc4f9f1cbbcc" SourceId="1" SourceUrl="http://localhost:61621/ForumWcfService.svc?wsdl" />
+    <MetadataFile FileName="ForumWcfService2.xsd" MetadataType="Schema" ID="2e8b3e7a-6e94-41d8-89a8-449ac638fcb0" SourceId="1" SourceUrl="http://localhost:61621/ForumWcfService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

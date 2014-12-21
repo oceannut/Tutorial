@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Tutorial.Wcf.ForumWcfServiceImpl"  Factory="Tutorial.Wcf.App.UnityServiceHostFactory" %>
