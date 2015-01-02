@@ -34,7 +34,7 @@ namespace Tutorial.DAL.Demo
             {
                 byte[] data = new byte[fs.Length];
                 fs.Read(data, 0, data.Length);
-                return serializer.Deserialize<Forum[]>(Encoding.UTF8.GetString(data));
+                return serializer.Deserialize<Forum[]>(Encoding.UTF8.GetString(data)).ToList();
             }
         }
     }

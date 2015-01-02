@@ -31,12 +31,20 @@ namespace Tutorial.Client.Wpf
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             IForumService forumService = new ServiceAdapter.ForumServiceAdapter();
-            forumService.SaveForum(
+            forumService.SaveForumAsync(
                 new Forum
                 {
-                    Name = "Hello World",
+                    Name = "Hello World 2",
                     Creator = "zsp"
-                });
+                })
+                .ContinueWith(
+                    (task) =>
+                    {
+                        if (task.Exception == null)
+                        {
+                            System.Windows.MessageBox.Show("success");
+                        }
+                    });
         }
     }
 }
